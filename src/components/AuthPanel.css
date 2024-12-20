@@ -1,0 +1,84 @@
+/* Main Container */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+/* Panel Container */
+.panel-container {
+  display: flex;
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.bounce {
+  animation: bounce 0.6s forwards;
+}
+
+
+/* Red Panel */
+.red-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+/* White Panel */
+.white-panel {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+/* Form Styling */
+form input {
+  display: block;
+  width: 100%;
+  margin: 30px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+span {
+  text-decoration: underline;
+  cursor: pointer;
+}
